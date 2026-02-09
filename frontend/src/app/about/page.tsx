@@ -1,65 +1,61 @@
 "use client"
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { GlitchText } from "@/components/about/GlitchText"
+import { ArchitectureDiagram } from "@/components/about/ArchitectureDiagram"
+import { ProjectTimeline } from "@/components/about/ProjectTimeline"
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen py-10 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-900/50">
-      <div className="max-w-4xl mx-auto space-y-8">
-        <div className="text-center mb-12">
-            <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl dark:text-white">
-                About The Project
+    <div className="min-h-screen bg-slate-50 dark:bg-black overflow-hidden relative">
+      
+      {/* Hero Section */}
+      <section className="relative py-24 sm:py-32 flex flex-col items-center justify-center text-center px-4">
+        <div className="absolute inset-0 grid-background opacity-20 pointer-events-none"></div>
+        <div className="relative z-10 max-w-4xl mx-auto">
+            <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl dark:text-white mb-6">
+                The Battle Between <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+                    <GlitchText text="REALITY" />
+                </span>
+                {" "}and{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-600">
+                    <GlitchText text="FABRICATION" />
+                </span>
             </h1>
-            <p className="mt-4 text-lg text-slate-600 dark:text-slate-300">
-                A comprehensive deepfake detection system using state-of-the-art deep learning.
+            <p className="mt-6 text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+                In an era where seeing is no longer believing, our system restores trust through advanced forensic analysis and multi-modal deep learning.
             </p>
         </div>
+      </section>
 
-        <div className="grid gap-8">
-            <Card>
-                <CardHeader>
-                    <CardTitle>Project Overview</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4 text-slate-600 dark:text-slate-300">
-                    <p>
-                        This project implements and compares four advanced deepfake detection models: EfficientNet-B4, Xception, Hybrid Forensic, and CLIP.
-                        Our goal is to provide a reliable tool for identifying manipulated facial images and videos in an era of increasing digital misinformation.
-                    </p>
-                    <p>
-                        The system uses a combination of transfer learning and forensic analysis (RGB + SRM) to detect subtle artifacts left by generative adversarial networks (GANs) and other manipulation techniques.
-                    </p>
-                </CardContent>
-            </Card>
+      {/* Architecture Section */}
+      <section className="py-24 bg-white dark:bg-slate-950/50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-16">
+                  <h2 className="text-3xl font-bold text-slate-900 dark:text-white">System Architecture</h2>
+                  <p className="mt-4 text-slate-600 dark:text-slate-400">
+                      Visualizing the data flow from raw input to verifiable verdict.
+                  </p>
+              </div>
+              <ArchitectureDiagram />
+          </div>
+      </section>
 
-            <Card>
-                <CardHeader>
-                    <CardTitle>Key Features</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-300">
-                        <li><strong>Multi-Model Support</strong>: Choose between speed and accuracy with different architectures.</li>
-                        <li><strong>Forensic Analysis</strong>: Detects frequency domain anomalies invisible to the human eye.</li>
-                        <li><strong>User-Friendly Interface</strong>: Simple drag-and-drop workflow for instant analysis.</li>
-                        <li><strong>Detailed Reporting</strong>: View confidence scores and probability metrics.</li>
-                    </ul>
-                </CardContent>
-            </Card>
-
-            <Card>
-                <CardHeader>
-                    <CardTitle>Future Roadmap</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <ul className="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-300">
-                        <li>Video temporal analysis for frame-by-frame consistency.</li>
-                        <li>Audio deepfake detection integration.</li>
-                        <li>Explainable AI (XAI) features like Grad-CAM heatmaps.</li>
-                        <li>Public API for developers.</li>
-                    </ul>
-                </CardContent>
-            </Card>
-        </div>
-      </div>
+      {/* Timeline Section */}
+      <section className="py-24 bg-slate-50 dark:bg-black">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-16">
+                  <h2 className="text-3xl font-bold text-slate-900 dark:text-white">Project Evolution</h2>
+                  <p className="mt-4 text-slate-600 dark:text-slate-400">
+                      The journey from initial research to a production-ready detection system.
+                  </p>
+              </div>
+              <div className="max-w-3xl mx-auto">
+                  <ProjectTimeline />
+              </div>
+          </div>
+      </section>
+      
     </div>
   )
 }
