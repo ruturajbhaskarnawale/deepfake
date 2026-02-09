@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+timm
+transformers
+albumentations
+facenet-pytorch
+librosa
+opencv-python
